@@ -10,5 +10,8 @@
 - Create SignUp user account
 - Implement SignIn
 - Implement Redux store with userSlice
-- Implemented Sign Out
+- Implement Sign Out
 - Update Profile
+- Register TMDB API
+- Build Background Video with title using TMDB and Youtub API
+-
