@@ -12,5 +12,12 @@ export const API_OPTIONS = {
 };
 export const nowPlayingMoviesURL =
   "https://api.themoviedb.org/3/movie/now_playing?page=1";
+export const popularMoviesURL =
+  "https://api.themoviedb.org/3/movie/popular?page=1";
+export const topRatedMoviesURL =
+  "https://api.themoviedb.org/3/movie/top_rated?page=1";
+export const upcomingMoviesURL =
+  "https://api.themoviedb.org/3/movie/upcoming?page=1";
 export const getMovieVideoURL =
   "https://api.themoviedb.org/3/movie/{movieId}/videos";
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
