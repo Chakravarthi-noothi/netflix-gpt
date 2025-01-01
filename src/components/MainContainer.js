@@ -6,8 +6,7 @@ import VideoBG from "./VideoBG";
 const MainContainer = () => {
   const movies = useSelector((store) => store.movies?.nowPlayingMovies);
   if (!movies) return;
-  const mainTitleMovie = movies[1];
-  console.log(mainTitleMovie);
+  const mainTitleMovie = movies[5];
 
   const { original_title, overview, id } = mainTitleMovie;
   return (

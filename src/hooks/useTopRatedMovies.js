@@ -8,7 +8,7 @@ const useTopRatedMovies = (url) => {
   const getTopRatedMovies = async () => {
     const data = await fetch(url, API_OPTIONS);
     const nowTopRatedMovies = await data.json();
-    dispatch(addTopRatedMovies(nowTopRatedMovies.results));
+    dispatch(addTopRatedMovies(nowTopRatedMovies?.results));
   };
 
   useEffect(() => {

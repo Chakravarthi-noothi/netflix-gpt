@@ -15,3 +15,5 @@
 - Register TMDB API
 - Build Background Video with title using TMDB and Youtub API
 - Build Secondary Component with Popular, Top Rated etc..
+- GPT Search feature
+- Multi Language Support in search bar
